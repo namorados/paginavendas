@@ -30,8 +30,8 @@ header h1 {
 }
 
 .descricao {
-    font-size: 1.2em;
-    margin-top: 20px;
+    font-size: 1.4em;
+    line-height: 1.6;
 }
 
 .preco {
