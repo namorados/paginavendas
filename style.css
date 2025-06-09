@@ -1,0 +1,78 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff0f5;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #ff3366;
+    color: white;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.venda {
+    padding: 30px 20px;
+}
+
+.venda .imagem-principal {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.descricao {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.preco {
+    color: #e60073;
+    font-size: 1.5em;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.galeria img {
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+footer {
+    background: #ff3366;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.botao-compra {
+    margin-top: 30px;
+}
+.botao-compra a {
+    background: #e60073;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background 0.3s ease;
+}
+.botao-compra a:hover {
+    background: #cc005f;
+}
